@@ -6,3 +6,5 @@ build: # сборка пакета
 	uv build
 package-install: # установка пакета
 	uv tool install dist/*.whl
+lint: # проверка линтера
+	uv run ruff check brain_games
