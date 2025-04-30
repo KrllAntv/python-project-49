@@ -27,7 +27,7 @@ def even_game():
         else:
             print(
             f"'{result}' is wrong answer."
-            f" Correct answer was '{even_numb(random_numb)}\n"
+            f" Correct answer was '{even_numb(random_numb)}'\n"
             f"Let's try again, {name}!"
             )
             break
