@@ -12,3 +12,5 @@ brain-even: # запуск игры brain-even
 	uv run brain-even
 brain-calc: # запуск игры brain-calcbu
 	uv run brain-calc
+brain-gcd: # запуск игры brain-gcd
+	uv run brain-gcd
