@@ -9,7 +9,7 @@ def game_run(module):
 
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
-    print('Hello, ' + name)
+    print(f"Hello, {name}!")
     # run welcome function from incoming module
     module.welcome()
     
