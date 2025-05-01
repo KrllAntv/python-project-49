@@ -3,8 +3,10 @@ import prompt
 # NUMB ROUND
 LVL = 3
 
+
 # welcome message
 def game_run(module):
+
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)
@@ -25,4 +27,5 @@ def game_run(module):
             f" Correct answer was '{answer}'\n"
             f"Let's try again, {name}!"
             )
+            break
         print(f"Congratulations, {name}!")
