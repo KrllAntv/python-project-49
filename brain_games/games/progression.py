@@ -1,5 +1,6 @@
 import random
 
+
 def welcome():
     print("What number is missing in th progression?")
 
