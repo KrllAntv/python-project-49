@@ -28,4 +28,5 @@ def game_run(module):
             f"Let's try again, {name}!"
             )
             break
+    else:
         print(f"Congratulations, {name}!")
