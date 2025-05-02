@@ -1,9 +1,11 @@
 import math
 import random
 
+
 # Message game
 def welcome():
     print("Find the greatest common divisor of given numbers.")
+
 
 def question_answer():
     numb1 = random.randint(1, 100)
