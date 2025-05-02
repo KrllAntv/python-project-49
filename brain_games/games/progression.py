@@ -2,7 +2,7 @@ import random
 
 
 def welcome():
-    print("What number is missing in th progression?")
+    print("What number is missing in the progression?")
 
 
 def question_answer():
