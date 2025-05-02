@@ -16,3 +16,5 @@ brain-gcd: # запуск игры brain-gcd
 	uv run brain-gcd
 brain-progression: # запуск игры brain-progression
 	uv run brain-proggression
+brain-prime: # запуск игры brain-prime
+	uv run brain-prime
