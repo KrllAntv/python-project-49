@@ -3,8 +3,8 @@ import random
 
 def welcome():
     print(
-        "Answer \"yes\" if given number is prime.",
-        "Otherwise anser \"no\"",
+        "Answer \"yes\" if the number is even",
+        "otherwise anser \"no\"",
         )
 
 
