@@ -1,6 +1,5 @@
 [project]
 name = "hexlet-code"
-authors = "Kirill Antonov"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"

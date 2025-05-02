@@ -8,7 +8,7 @@ This is my first project as part of my studies on the Hexlet platform.
 This project was built using these tools:
 
 | Tool | Description |
-| ------:| -----------:|
+| :------:| :-----------:|
 | [uv](https://docs.astral.sh/uv/) | "An extremely fast Python package and project manager, written in Rust" |
 | [ruff](https://docs.astral.sh/ruff/) | "An extremely fast Python linter and code formatter, written in Rust" |
 | [prompt](https://prompt.readthedocs.io/en/latest/) | tool for creating interactive command-line interfaces by simplifying user input
