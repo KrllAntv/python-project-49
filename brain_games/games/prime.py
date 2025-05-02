@@ -3,11 +3,9 @@ import random
 
 def welcome():
     print(
-        f"Answer \"yes\" if given number is prime.",
-        f"Otherwise anser \"no\"",
+        "Answer \"yes\" if given number is prime.",
+        "Otherwise anser \"no\"",
         )
-
-
 
 
 # prime number determination function
@@ -19,10 +17,10 @@ def find_prime_numb(numb):
                 return 'no'
             divide += 1
     if divide > 2:
-        return f'no'
+        return 'no'
     else:
-        return f'yes'
-        
+        return 'yes'
+            
 
 def question_answer():
     numb = random.randint(1, 41) 
