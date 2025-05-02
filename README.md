@@ -3,6 +3,22 @@
 ### SonarQube Cloud
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-highlight.svg)](https://sonarcloud.io/summary/new_code?id=KrllAntv_python-project-49)
 
+## Brain-Games
+This is my first project as part of my studies on the Hexlet platform.
+This project was built using these tools:
+
+| Tool | Description |
+| ------:| -----------:|
+| [uv](https://docs.astral.sh/uv/) | "An extremely fast Python package and project manager, written in Rust" |
+| [ruff](https://docs.astral.sh/ruff/) | "An extremely fast Python linter and code formatter, written in Rust" |
+| [prompt](https://prompt.readthedocs.io/en/latest/) | tool for creating interactive command-line interfaces by simplifying user input
+
+
+## Setup
+```
+Sample text here...
+```
+
 ## Brain-Even Game 
 [![asciicast](https://asciinema.org/a/HDwSSX3vsLjw1CGL2JDHc3DV5.svg)](https://asciinema.org/a/HDwSSX3vsLjw1CGL2JDHc3DV5)
 
