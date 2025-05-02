@@ -3,8 +3,8 @@ import random
 
 def welcome():
     print(
-        "Answer \"yes\" if the number is even",
-        "otherwise anser \"no\"",
+        "Answer \"yes\" if the number is even,",
+        "otherwise anser \"no\".",
         )
 
 
