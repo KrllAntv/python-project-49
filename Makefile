@@ -2,6 +2,8 @@ install: # сихронизация зависимости
 	uv sync
 build: # сборка пакета
 	uv build
+brain-games:
+	uv run brain_games
 package-install: # установка пакета
 	uv tool install dist/*.whl
 lint: # проверка линтера
