@@ -16,7 +16,7 @@ This project was built using these tools:
 
 ## Setup
 ```
-Sample text here...
+make install
 ```
 
 ## Brain-Even Game 
