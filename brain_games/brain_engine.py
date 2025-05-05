@@ -13,7 +13,7 @@ def game_run(module):
     # run welcome function from incoming module
     module.welcome()
     
-    for lvl_char in range(LVL):
+    for _ in range(LVL):
         # unpacking quest and answer funct. from incoming module
         quest_answer = module.question_answer()
         (question, answer) = quest_answer
