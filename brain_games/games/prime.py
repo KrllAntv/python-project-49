@@ -14,17 +14,17 @@ def find_prime_numb(numb):
     for _ in range(1, numb + 1):
         if numb % _ == 0:
             if numb == 1:
-                return 'no'
+                return False
             divide += 1
     if divide > 2:
-        return 'no'
+        return False
     else:
-        return 'yes'
+        return True
             
 
 def question_answer():
     numb = random.randint(1, 41) 
-    answer = find_prime_numb(numb)
+    answer = 'yes' if find_prime_numb(numb) is True else 'no'
     question = f'Question: {numb}'
     result = (question, answer)
     return result
