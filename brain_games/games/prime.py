@@ -9,7 +9,7 @@ def welcome():
 
 
 # prime number determination function
-def find_prime_numb(numb):
+def is_prime(numb):
     divide = 0
     for _ in range(1, numb + 1):
         if numb % _ == 0:
@@ -24,7 +24,7 @@ def find_prime_numb(numb):
 
 def question_answer():
     numb = random.randint(1, 41) 
-    answer = 'yes' if find_prime_numb(numb) is True else 'no'
+    answer = 'yes' if is_prime(numb) is True else 'no'
     question = f'Question: {numb}'
     result = (question, answer)
     return result
