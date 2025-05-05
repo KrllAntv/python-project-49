@@ -8,7 +8,7 @@ def welcome():
         )
 
 
-def even_numb(numb: int):
+def is_even(numb: int):
     if numb % 2 == 0:
         return True
     else:
@@ -17,7 +17,7 @@ def even_numb(numb: int):
 
 def question_answer():
     random_numb = random.randint(1, 100)
-    answer = 'yes' if even_numb(random_numb) is True else 'no'
+    answer = 'yes' if is_even(random_numb) is True else 'no'
     question = f'Question: {random_numb}'
     result = (question, answer)
     return result
