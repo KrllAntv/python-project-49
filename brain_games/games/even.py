@@ -10,14 +10,14 @@ def welcome():
 
 def even_numb(numb: int):
     if numb % 2 == 0:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
 
 
 def question_answer():
     random_numb = random.randint(1, 100)
-    answer = even_numb(random_numb)
+    answer = 'yes' if even_numb(random_numb) is True else 'no'
     question = f'Question: {random_numb}'
     result = (question, answer)
     return result
